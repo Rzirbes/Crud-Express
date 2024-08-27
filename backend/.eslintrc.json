@@ -16,6 +16,7 @@
     "@typescript-eslint/explicit-member-accessibility": "warn",
     "@typescript-eslint/no-misused-promises": 0,
     "@typescript-eslint/no-floating-promises": 0,
+    "react-hooks/exhaustive-deps": "warn",
     "semicolon": [false],
     "max-len": [
       "warn",
