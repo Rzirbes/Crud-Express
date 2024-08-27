@@ -14,9 +14,8 @@ import childProcess from 'child_process';
   try {
     // Remove current build
     await remove('./dist/');
-    // Commented out because src/public doesn't exist
-    // await copy('./src/public', './dist/public');
-    await copy('./src/views', './dist/views');
+    // Commented out because src/views doesn't exist
+    // await copy('./src/views', './dist/views');
     // Copy back-end files
     await exec('tsc --build tsconfig.prod.json', './');
   } catch (err) {
